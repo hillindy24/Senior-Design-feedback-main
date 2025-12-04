@@ -1,8 +1,8 @@
 #include <Arduino.h> 
 #include <Wire.h>
 #include <SD.h>
-#include <Audio.h> // Use ESP32-AudioI2S or similar
-
+//#include <Audio.h> // Use ESP32-AudioI2S or similar
+#include <BackgroundAudio.h>
 // Define LED pin numbers
 const int GREEN_LED_GPIO = 1;
 const int YELLOW_LED_GPIO = 2;
